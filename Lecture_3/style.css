@@ -1,0 +1,18 @@
+body {
+background-color:pink;
+}
+h1 {
+    color:yellow;
+}
+h2 {
+    color:red;
+}
+li{
+    background-color:green;
+    color:Yellow;
+}
+img {
+    border-color: pink;
+    border-width: 10px;
+    border-style: dotted;
+}
