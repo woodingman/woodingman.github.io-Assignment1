@@ -1,0 +1,52 @@
+ul {
+    color:#0066ff;
+    background-color:#00ff00;
+    display: table;
+    margin: 0 auto;
+}
+ol {
+    display: table;
+    margin: 0 auto;
+    color:#0066ff;
+    background-color:#00ff00;
+    display: table;
+    margin: 0 auto;
+    font-size:30px;
+}
+
+body{
+    background-color:#e600e6;
+    border-color: #00ff00;
+    border-width: 10px;
+    border-style: solid;
+}
+dl{
+    color:#0066ff;
+    background-color:#00ff00;
+    display: table;
+    margin: 0 auto;
+}
+a{
+    text-align:center;
+}
+h1{
+    color:#ff6600;
+    background-color:#00ff00;
+    text-align:center;
+    display: table;
+    margin: 0 auto;
+}
+h2{
+    color:#0066ff;
+    background-color:#00ff00;
+}
+
+img{
+    display: table;
+    margin: 0 auto;
+    color:#0066ff;
+    background-color:#00ff00;
+    display: table;
+    margin: 0 auto;
+    font-size:30px;
+}
