@@ -1,17 +1,56 @@
-body{
+.elmo{
+	width:100px;
+	height:100px;
+	background-color:red;
+	color:white;
+	padding: 20px;
+	margin: 190px;
+	float:right;
+}
+#loading {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+div.a {
+  -ms-transform: rotate(180deg); /* IE 9 */
+  transform: rotate(180deg);
+}
+.elmo2{
+	width:100px;
+	height:100px;
+	background-color:red;
+	color:white;
+	padding: 20px;
+	margin: 190px;
+	float:right;
 	background: url('wooding.jpg');
     background-size: cover;
 }
 
-.f{
-background-color:orange;
-padding: 15px;
-  color:yellow;
-  float:right;
-  width: 300px;
-  height: 380px;
-}
 
+
+
+
+
+body{
+	background: url('wooding.jpg');
+    background-size: cover;
+}
+.test {
+  cursor:url('gus.jpg'), auto;
+}
+#relativeTop {
+  position: relative;
+  top: 150px;
+}
 span.earth {
     font-size: 200%;
     color: orange;
@@ -33,14 +72,6 @@ span.fire {
     background-color: gray;
     font-family: 
 }
-.test {
-  cursor:url('gus.jpg'), auto;
-}
-#relativeTop {
-  position: relative;
-  top: 150px;
-}
-
 #borderThreeSteps {
   color:yellow;
   border-color: yellow;
@@ -86,6 +117,10 @@ img{
   height: 50px;
 }
 .yellowbox {
+border-left: red 5px dotted;
+  border-right: red 5px solid;
+  border-top: orange 5px dotted;
+  border-bottom: orange 5px solid;
   background-color:yellow;
   float: right;
   width: 250px;
@@ -94,15 +129,20 @@ img{
 .orangebox {
   background-color:orange;
   color:blue;
-  margin: auto;
+  margin:200px;
   width: 20%;
   height: 80px;
 }
 
 .bonebox {
+  border-left: yellow 5px dotted;
+  border-right: yellow 5px solid;
+  border-top: orange 5px dotted;
+  border-bottom: orange 5px solid;
+
   background-color:orange;
   color:blue;
-  margin: auto;
+  margin: 50px;
   width: 80%;
   height: 50%;
 }
@@ -118,8 +158,18 @@ img{
 .erika{
 background-color:green;
 padding: 15px;
+margin:100px;
   color:yellow;
   float:left;
   width: 300px;
   height: 380px;
 }
+.f{
+background-color:orange;
+padding: 15px;
+  color:yellow;
+  float:right;
+  width: 300px;
+  height: 380px;
+}
+
