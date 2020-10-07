@@ -2,6 +2,27 @@ body{
 	background: url('wooding.jpg');
     background-size: cover;
 }
+span.earth {
+    font-size: 200%;
+    color: orange;
+    background-color: black;
+    font-family: times;
+}
+
+
+span.wind {
+    font-size: 280%;
+    color: blue;
+    background-color: lightblue;
+    font-family: arial;
+}
+
+span.fire {
+    font-size: 210%;
+    color: red;
+    background-color: gray;
+    font-family: 
+}
 .test {
   cursor:url('gus.jpg'), auto;
 }
