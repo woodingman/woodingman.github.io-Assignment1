@@ -1,0 +1,94 @@
+body{
+	background: url('wooding.jpg');
+    background-size: cover;
+}
+.test {
+  cursor:url('gus.jpg'), auto;
+}
+#relativeTop {
+  position: relative;
+  top: 150px;
+}
+
+#borderThreeSteps {
+  color:yellow;
+  border-color: yellow;
+  border-style: dotted;
+  border-width: 5px;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
+.box{
+    width: 250px;        
+    border: 5px solid black;
+}  
+#fixedPositionA{
+  position: fixed;
+  bottom: 0px;
+  left: 0px
+}
+#fixedPositionB{
+  position: fixed;
+  top: : 0px;
+ right: 0px
+}
+#borderOneStep {
+  color:yellow;
+  border: double orange 5px;
+}
+#relativeRight {
+  position: relative;
+  right: 500px;
+}
+
+#withmargin {
+  margin: 20px;
+  float: right;
+}
+.purplebox {
+  background-color:purple;
+  float: right;
+  width: 250px;
+  height: 50px;
+}
+.yellowbox {
+  background-color:yellow;
+  float: right;
+  width: 250px;
+  height: 150px;
+}
+.orangebox {
+  background-color:orange;
+  color:blue;
+  margin: auto;
+  width: 20%;
+  height: 80px;
+}
+
+.bonebox {
+  background-color:orange;
+  color:blue;
+  margin: auto;
+  width: 80%;
+  height: 50%;
+}
+
+#withpadding {
+  padding: 15px;
+  
+  border-left: yellow 5px dotted;
+  border-right: yellow 5px dotted;
+  border-top: orange 5px dotted;
+  border-bottom: orange 5px dotted;
+}
+.erika{
+background-color:green;
+padding: 15px;
+  color:yellow;
+  float:left;
+  width: 300px;
+  height: 380px;
+}
