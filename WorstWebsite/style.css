@@ -129,8 +129,8 @@ border-left: red 5px dotted;
 .orangebox {
   background-color:orange;
   color:blue;
-  margin:200px;
-  width: 20%;
+  margin:auto;
+  width: 50%;
   height: 80px;
 }
 
